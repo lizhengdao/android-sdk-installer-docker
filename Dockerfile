@@ -8,6 +8,6 @@ CMD ["bash"]
 
 # Install the Android SDK
 # https://github.com/Commit451/android-sdk-installer
-RUN gem install android-sdk-installer -v 1.0.0
+RUN gem install android-sdk-installer -v 1.1.0
 RUN android-sdk-installer
 ENV ANDROID_HOME=$PWD/android-sdk
